@@ -1,0 +1,30 @@
+{
+    "feed": [
+        {
+            "id": "1",
+            "profileImageUrl": "assets/users/Tony Stark.png",
+            "mobile": "09155375416",
+            "position": "Chief Executive Officer",
+            "name":"Tony Starks",
+            "email": "tony_starks@yahoo.com",
+            "company": "Stark Industries",
+            "address": "San Jose, California",
+            "telephone": "09278888800",
+            "fax":"09880008888",
+            "leaves": "20"
+        },
+        {
+            "id": "2",
+            "profileImageUrl": "assets/users/Stephen Strange.png",
+            "mobile": "09178887777",
+            "position": "Director",
+            "name":"Stephen Strange",
+            "email": "stephen_strange@yahoo.com",
+            "company": "Apple",
+            "address": "Cupertino, California",
+            "telephone": "09278880000",
+            "fax": "01199775500",
+            "leaves": "18"
+        }
+    ]
+}
