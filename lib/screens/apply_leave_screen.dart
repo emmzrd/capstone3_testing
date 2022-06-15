@@ -118,7 +118,9 @@ class _ApplyLeaveScreenState extends State<ApplyLeaveScreen>
                       children: [
                         SfDateRangePicker(
                           showNavigationArrow: true,
+                          allowViewNavigation: false,
                           showActionButtons: true,
+                          enableMultiView: true,
                           view: DateRangePickerView.month,
                           controller: _controller,
                           selectionMode: DateRangePickerSelectionMode.range,
@@ -137,7 +139,7 @@ class _ApplyLeaveScreenState extends State<ApplyLeaveScreen>
                           showNavigationArrow: true,
                           showActionButtons: true,
                           view: DateRangePickerView.year,
-                          controller: _controller,
+                          // controller: _controller,
                           selectionMode: DateRangePickerSelectionMode.range,
                           toggleDaySelection: true,
                           onSelectionChanged: selectionChanged,

@@ -4,14 +4,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:capstone3_testing/components/widgets/home_side_bar_button.dart';
 import 'package:capstone3_testing/screens/business_card_screen.dart';
 import 'package:capstone3_testing/screens/home_screen.dart';
+import 'package:capstone3_testing/screens/time_tracking_screen.dart';
 
 import 'package:capstone3_testing/models/post.dart';
 class HomeSideSheet extends StatelessWidget {
-  const HomeSideSheet({
-    Key? key,
+  HomeSideSheet({
+    Key? key, required this.friendPosts
   }) : super(key: key);
-
-
+  List <Post> friendPosts;
 
   @override
   Widget build(BuildContext context) {
@@ -60,16 +60,21 @@ class HomeSideSheet extends StatelessWidget {
                     svgIcon: 'assets/icons/business_card.svg',
                     text: 'Visitenkarte',
                     onpressed: () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //         builder: (context) => BusinessCardScreen()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => BusinessCardScreen(friendPosts: friendPosts,)));
                     },
                   ),
                   HomeSideBarButton(
                     svgIcon: 'assets/icons/time.svg',
                     text: 'Zeiterfassung',
-                    onpressed: () {},
+                    onpressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => TimeTrackingScreen(friendPosts: friendPosts,)));
+                    },
                   ),
                   HomeSideBarButton(
                     svgIcon: 'assets/icons/bet.svg',

@@ -127,7 +127,7 @@ const k40012RobotoBlueTextStyle = TextStyle(
   fontSize: 12.0,
   fontWeight: FontWeight.w400,
   color: kColor00A4EABlue,
-  fontFamily: 'Mulish',
+  fontFamily: 'Roboto',
 );
 
 const k40022AllertaBlackTextStyle = TextStyle(
@@ -156,4 +156,17 @@ const k60010MulishMirageBlackTextStyle = TextStyle(
   fontWeight: FontWeight.w600,
   color: kColorMirageBlack,
   fontFamily: 'Mulish',
+);
+
+const k40012RobotoBlackTextStyle = TextStyle(
+  fontSize: 12.0,
+  fontWeight: FontWeight.w400,
+  color: kColorBlack,
+  fontFamily: 'Roboto',
+);
+const k40014RobotoGreyTextStyle = TextStyle(
+  fontSize: 14.0,
+  fontWeight: FontWeight.w400,
+  color: kColor75787cGrey,
+  fontFamily: 'Roboto',
 );

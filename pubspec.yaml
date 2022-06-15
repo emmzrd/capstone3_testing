@@ -41,7 +41,6 @@ dependencies:
   cloud_firestore: ^3.1.17
   firebase_auth: ^3.3.19
   modal_progress_hud: ^0.1.3
-  http: ^0.13.4
   async_redux: any
   cached_network_image: any
   charts_flutter: any
@@ -51,6 +50,8 @@ dependencies:
   side_sheet: ^1.0.1
   intl: ^0.17.0
   syncfusion_flutter_datepicker: ^20.1.59
+  syncfusion_flutter_calendar: ^20.1.60
+  scrolling_years_calendar: ^1.3.1
 
 
 

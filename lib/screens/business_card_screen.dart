@@ -35,7 +35,7 @@ class _BusinessCardScreenState extends State<BusinessCardScreen>
       backgroundColor: kColorF4F4F4Grey,
       // drawer: HomeDrawer(),
       appBar: AppBar(
-        leading: HomeSideSheet(),
+        leading: HomeSideSheet(friendPosts: widget.friendPosts,),
         backgroundColor: kColorWhite,
         elevation: 0,
         iconTheme: IconThemeData(
